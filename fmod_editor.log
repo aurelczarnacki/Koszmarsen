@@ -1,0 +1,250 @@
+[LOG] System::create                           : Header version = 2.02.20. Current version = 2.02.20.
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0000000000000000.
+[LOG] SystemI::init                            : Initialize version=20220 (139317), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD WASAPI Output'
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
+[LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 0000025A2811F988 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 786336
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 7136
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000E23D0BF558
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD11DC3F70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD11DC3F30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD11DC4050
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD11DC4110
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000025995D54D48
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SlideWoosh', format=5, channels=2, frequency=48000, lengthbytes=42752, lengthpcm=157841, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.535950.
+[LOG] SystemI::createSound                     : filename = C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025AC9911388, queue head = 0000025AC8BFB188, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025AC9911388
+[LOG] SystemI::createSoundInternal             :     Create name='C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 139520
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 1760
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000025AC82D8C40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='testmilion', format=5, channels=2, frequency=48000, lengthbytes=139296, lengthpcm=658285, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.720337.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025AC9911388
+[LOG] SoundI::release                          : testmilion (0000025AC8EC2668)
+[LOG] SoundI::release                          :     testmilion (00000259B6C3B758)
+[LOG] SoundI::release                          :     testmilion (0000025AC8EC0808)
+[LOG] SystemI::createSound                     : filename = C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025AC9911898, queue head = 0000025AC8BFB188, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025AC9911898
+[LOG] SystemI::createSoundInternal             :     Create name='C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 139520
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 1760
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000259B64939F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='testmilion', format=5, channels=2, frequency=48000, lengthbytes=139296, lengthpcm=658285, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.720337.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025AC9911898
+[LOG] SoundI::release                          : testmilion (0000025AC9911388)
+[LOG] SoundI::release                          :     testmilion (0000025ACA34E7C8)
+[LOG] SoundI::release                          :     testmilion (0000025AC99111D8)
+[LOG] SystemI::createSound                     : filename = C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/Ambient.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025AC9910CC8, queue head = 0000025AC8BFB188, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025AC9910CC8
+[LOG] SystemI::createSoundInternal             :     Create name='C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/Ambient.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 136160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 1632
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000025A73961E50
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='9665__thanvannispen__whispers', format=5, channels=2, frequency=48000, lengthbytes=135936, lengthpcm=454965, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.799103.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025AC9910CC8
+[LOG] SoundI::release                          : 9665__thanvannispen__whispers (0000025AC9910CC8)
+[LOG] SoundI::release                          :     9665__thanvannispen__whispers (0000025ACA34C748)
+[LOG] SoundI::release                          :     9665__thanvannispen__whispers (0000025AC9910E78)
+[LOG] SystemI::createSound                     : filename = C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025AC9910E78, queue head = 0000025AC8BFB188, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025AC9910E78
+[LOG] SystemI::createSoundInternal             :     Create name='C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 139520
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 1760
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000025A78927D80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='testmilion', format=5, channels=2, frequency=48000, lengthbytes=139296, lengthpcm=658285, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.720337.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025AC9910E78
+[LOG] SoundI::release                          : testmilion (0000025AC9911898)
+[LOG] SoundI::release                          :     testmilion (0000025ACA34C408)
+[LOG] SoundI::release                          :     testmilion (0000025AC9911538)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 786336
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 7136
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000E23D0BF558
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD11DC3F70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD11DC3F30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD11DC4050
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD11DC4110
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000025AC5516B48
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='184438__capslok__cash-register-fake', format=5, channels=2, frequency=48000, lengthbytes=14496, lengthpcm=105399, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.604433.
+[LOG] SystemI::createSound                     : filename = C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025AC9911538, queue head = 0000025AC8BFB188, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025AC9911538
+[LOG] SystemI::createSoundInternal             :     Create name='C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 786336
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7136
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000025AC82D8C40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='118239__pierrecartoons1979__slot-machine-phrygian', format=5, channels=2, frequency=48000, lengthbytes=91104, lengthpcm=579291, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.247498.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025AC9911538
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025AC9911A48, queue head = 0000025AC8BFB188, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025AC9911A48
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025AC9911A48
+[LOG] SystemI::createSound                     : filename = C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025AC8EBFC38, queue head = 0000025AC8BFB188, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025AC8EBFC38
+[LOG] SystemI::createSoundInternal             :     Create name='C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 139520
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 1760
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000025A22274F60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='testmilion', format=5, channels=2, frequency=48000, lengthbytes=139296, lengthpcm=658285, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.720337.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025AC8EBFC38
+[LOG] SoundI::release                          : testmilion (0000025AC9910E78)
+[LOG] SoundI::release                          :     testmilion (0000025ACA34DE08)
+[LOG] SoundI::release                          :     testmilion (0000025AC99116E8)
+[LOG] SoundI::release                          : 118239__pierrecartoons1979__slot-machine-phrygian (0000025AC9911538)
+[LOG] SoundI::release                          :     118239__pierrecartoons1979__slot-machine-phrygian (0000025ACA3501C8)
+[LOG] SoundI::release                          :     118239__pierrecartoons1979__slot-machine-phrygian (0000025AC9911A48)
+[LOG] SystemI::createSound                     : filename = C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025AC8EC0808, queue head = 0000025AC8BFB188, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025AC8EC0808
+[LOG] SystemI::createSoundInternal             :     Create name='C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 786336
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7136
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000025A222741A0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='118239__pierrecartoons1979__slot-machine-phrygian', format=5, channels=2, frequency=48000, lengthbytes=91104, lengthpcm=579291, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.247498.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025AC8EC0808
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025AC8EC2668, queue head = 0000025AC8BFB188, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025AC8EC2668
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025AC8EC2668
+[LOG] SoundI::release                          : 118239__pierrecartoons1979__slot-machine-phrygian (0000025AC8EC0808)
+[LOG] SoundI::release                          :     118239__pierrecartoons1979__slot-machine-phrygian (0000025ACA34A6C8)
+[LOG] SoundI::release                          :     118239__pierrecartoons1979__slot-machine-phrygian (0000025AC8EC2668)
+[LOG] SystemI::createSound                     : filename = C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025AC8EC0EC8, queue head = 0000025AC8BFB188, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025AC8EC0EC8
+[LOG] SystemI::createSoundInternal             :     Create name='C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/Music.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 139520
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 1760
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000025A78927D80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='testmilion', format=5, channels=2, frequency=48000, lengthbytes=139296, lengthpcm=658285, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.720337.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025AC8EC0EC8
+[LOG] SoundI::release                          : testmilion (0000025AC8EBFC38)
+[LOG] SoundI::release                          :     testmilion (0000025ACA34E968)
+[LOG] SoundI::release                          :     testmilion (0000025AC8EC1A98)
+[LOG] SystemI::createSound                     : filename = C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/SFX.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025AC8EBF728, queue head = 0000025AC8BFB188, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025AC8EBF728
+[LOG] SystemI::createSoundInternal             :     Create name='C:/Users/Aurel/Documents/FMOD Studio/audio-system-koszmarsen/Build/Desktop/SFX.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 786336
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 7136
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000025A78927EC0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='118239__pierrecartoons1979__slot-machine-phrygian', format=5, channels=2, frequency=48000, lengthbytes=91104, lengthpcm=579291, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.247498.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025AC8EBF728
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000025AC8EBFC38, queue head = 0000025AC8BFB188, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025AC8EBFC38
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025AC8EBFC38
+[LOG] SoundI::release                          : testmilion (0000025AC8EC0EC8)
+[LOG] SoundI::release                          :     testmilion (0000025ACA34FE88)
+[LOG] SoundI::release                          :     testmilion (0000025AC8EC3238)
+[LOG] SoundI::release                          : 118239__pierrecartoons1979__slot-machine-phrygian (0000025AC8EBF728)
+[LOG] SoundI::release                          :     118239__pierrecartoons1979__slot-machine-phrygian (0000025ACA34ABA8)
+[LOG] SoundI::release                          :     118239__pierrecartoons1979__slot-machine-phrygian (0000025AC8EBFC38)
+[LOG] SoundI::release                          :  (0000025A283D67A8)
+[LOG] SoundI::release                          :     SlideWoosh (0000025ACA350EC8)
+[LOG] SoundI::release                          :  (0000025AC88C8AD8)
+[LOG] SoundI::release                          :     184438__capslok__cash-register-fake (0000025ACA34D108)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
