@@ -25,11 +25,11 @@ To run the repository, it is recommended to use Unity engine version **2022.3.14
 ***
 ## Screenshots
 <p float=left> 
-<img width=320 src="https://github.com/aurelczarnacki/Koszmarsen/blob/main/Screenshots/Kosz1.gif?raw=true">
+<img width=250 src="https://github.com/aurelczarnacki/Koszmarsen/blob/main/Screenshots/Kosz1.gif?raw=true">
 
-<img width=320 src="https://github.com/aurelczarnacki/Koszmarsen/blob/main/Screenshots/Kosz2.gif?raw=true">
+<img width=250 src="https://github.com/aurelczarnacki/Koszmarsen/blob/main/Screenshots/Kosz2.gif?raw=true">
 
-<img width=320 src="https://github.com/aurelczarnacki/Koszmarsen/blob/main/Screenshots/Kosz3.gif?raw=true">
+<img width=250 src="https://github.com/aurelczarnacki/Koszmarsen/blob/main/Screenshots/Kosz3.gif?raw=true">
 </p>
 
 ## Credits
